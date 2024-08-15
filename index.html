@@ -11,9 +11,12 @@
 
 <body>
     <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+        <!-- mudar aqui -->
         <div class="bg-dark p-4">
             <h5 class="text-body-emphasis h4">Fullstack live 04</h5>
-            <span class="text-body-secondary">Aula inicial, mostrando alguns recursos do bootstrap</span>
+            <span class="text-body-secondary">O objetivo desta atividade é desenvolvolver técnicas de colaboração em um
+                repositório remoto
+                e uso de bibliotecas</span>
         </div>
     </div>
     <nav class="navbar navbar-dark bg-dark">
@@ -27,108 +30,189 @@
     </nav>
 
     <div class="container">
-    
-        <div class="jumbroton my-4">
-            <h1 class="display-4">Bem vindo!</h1>
-            <p class="lead">Esta é uma landing page simples criada com bootstrap</p>
-            <hr class="my4">
-            <p>Parágrafo que faltava</p>
-            <p>Descubra como o Bootstrap pode te ajudar a criar sites</p>
-            <button type="button" class="btn btn-secondary">Success</button>
+        <!-- aqui -->
+        <div class="jumbroton my-4 text-center">
+            <h1 class="display-4">Exercício colaborativo usando bootstrap</h1>
+            <p class="lead">O objetivo desta atividade é desenvolvolver técnicas de colaboração em um repositório remoto
+                e uso de bibliotecas</p>
         </div>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Teste</h2>
-                <p>Descrição do teste</p>
+        <!-- carousel -->
+        <div style="display: flex; justify-content: space-between;">
+            <!-- carousel autoplay -->
+            <div style="width: 45%;" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/img01.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img02.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img03.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="col-md-4">
-                <h2>Teste</h2>
-                <p>Descrição do teste</p>
+            <!-- carousel fade -->
+            <div style="width: 45%;" id="carouselExampleFade" class="carousel slide carousel-fade"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/img04.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img05.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/img06.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="col-md-4">
-                <h2>Teste</h2>
-                <p>Descrição do teste</p>
+        </div>
+
+        <div class="row justify-content-center my-4">
+            <div class="col-lg-4 col-md-4 col-sm-12 my-2 d-flex flex-column align-items-center">
+                <h2>fsl-04</h2>
+                <div class="card">
+                    <img src="img/img05.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title placeholder-glow">
+                            <span class="placeholder col-6"></span>
+                        </h5>
+                        <p class="card-text placeholder-glow">
+                            <span class="placeholder col-5"></span>
+                        </p>
+                        <a class="btn btn-primary disabled placeholder col-3" aria-disabled="true"></a>
+                    </div>
+                </div>
+                <p>Exemplo simples de card que carrega dados como alternativa de placeholder</p>
             </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div>
-            <h1>Artur844</h1>
-        </div>
-    </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center">
+                <h2>fsl-04</h2>
+                <div class="card">
+                    <img src="img/img05.jpg" class="card-img-top" alt="imagem sobre tecnologia">
+                    <div class="card-body">
+                        <h5 class="card-title">Exemplo de contribuição</h5>
+                        <p class="card-text">Clique para mais detalhes</p>
+                        <a href="#" class="btn btn-primary">Clique aqui</a>
+                    </div>
+                </div>
+                <p>Exemplo simples de card com botão que redireciona</p>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
+                <h2>fsl-04</h2>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Exemplo simples de tabela que com efeitos</p>
+                <h5>Modal</h5>
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Mostre o segundo modal clicando no botão a seguir
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal">Abrir segundo modal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                    aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Escode essa modal e mostra o anterior
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                    data-bs-toggle="modal">Voltar ao primeiro</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center my-3">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                        data-bs-toggle="modal">Primeiro modal</button>
+                </div>
+                <p>Exemplo simples de modal com duas opções</p>
+            </div>
 
-    <div class="container">
-        <div>
-            <h1>Gleidson54</h1>
-        </div>
-    </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
+                <h2>nickName</h2>
+                <!-- componente -->
+                 <p>Desecrição do exemplo</p>
+            </div>
 
-    <div class="container">
-        <div>
-            <h1>jailtonsds</h1>
-        </div>
-    </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
+                <h2>nickName</h2>
+                <!-- componente -->
+                 <p>Desecrição do exemplo</p>
+            </div>
 
-    <div class="container">
-        <div>
-            <h1>JhonDev17</h1>
         </div>
-    </div>
 
-    <div class="container">
-        <div>
-            <h1>John-silva91</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>Juniortajra</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>Kerisguimaraes</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>LucasViana7</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>marcelocarvalho1</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>pedrojadir</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>razer-bit</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>Sara-Mirian</h1>
-        </div>
-    </div>
-
-    <div class="container">
-        <div>
-            <h1>Yan-Kevi</h1>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
