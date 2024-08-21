@@ -8,11 +8,48 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        i {
+            margin-right: 10px;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+            aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+                    aria-pressed="false">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    Auto
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+                    aria-pressed="false">
+                    <i class="fa-regular fa-sun"></i>
+                    Light
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                    aria-pressed="false">
+                    <i class="fa-regular fa-moon"></i>
+                    Dark
+                </button>
+            </li>
+        </ul>
+    </div>
+
     <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-        <!-- mudar aqui -->
         <div class="bg-dark p-4">
             <h5 class="text-body-emphasis h4">Fullstack live 04</h5>
             <span class="text-body-secondary">O objetivo desta atividade é desenvolvolver técnicas de colaboração em um
@@ -203,7 +240,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>AndreLuizTuf</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
                 <table class="table table-success table-striped">
                     <thead>
                         <tr>
@@ -243,29 +280,29 @@
                     <button type="button" class="btn btn-primary btn-sm">Small button</button>
                     <button type="button" class="btn btn-secondary btn-sm">Small button</button>
                 </div>
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>Artur844</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>brenun</h2>
                 <!-- componente -->
-                 <p>Desecrição do exemplo</p>
-                    <div style="display: flex; justify-content: center; cursor: pointer;">
-                        <div class="card text-bg-dark">
-                            <img src="img/img07.jpg" class="card-img" alt="imagem">
-                            <div class="card-img-overlay">
-                              <h5 class="card-title">bootstrap</h5>
-                              <p class="card-text">Como colaborar em uma pagina estruturada utilizando bootstrap</p>
-                              <p class="card-text"><small>Last updated 3 mins ago</small></p>
-                            </div>
-                          </div>
+                <p>Descrição do exemplo</p>
+                <div style="display: flex; justify-content: center; cursor: pointer;">
+                    <div class="card text-bg-dark">
+                        <img src="img/img07.jpg" class="card-img" alt="imagem">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">bootstrap</h5>
+                            <p class="card-text">Como colaborar em uma pagina estruturada utilizando bootstrap</p>
+                            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                        </div>
                     </div>
+                </div>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center">
@@ -304,14 +341,14 @@
                 <p>Barra de progresso</p>
 
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
 
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>Gleidson54</h2>
                 <img src="img/img05.jpg" class="img-thumbnail" alt="...">
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
@@ -343,21 +380,22 @@
 
                         </tbody>
                     </table>
-                    <p>Desecrição do exemplo</p>
+                    <p>Descrição do exemplo</p>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>JhonDev17</h2>
-                
-                 <p>Tela de Login</p>
-                 <div>
+
+                <p>Tela de Login</p>
+                <div>
                     <div class="d-flex align-items-center py-4 bg-body-tertiary">
-                        <main class="w-100 m-auto form-conteiner" > 
+                        <main class="w-100 m-auto form-conteiner">
                             <form>
-                                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/1Artboard%25201%2520copy.png" class="mb-4" height="57" width="170">
+                                <img src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/1Artboard%25201%2520copy.png"
+                                    class="mb-4" height="57" width="170">
                                 <h1 class="h3 mb-3 fs-5">Preencha os seus dados abaixo.</h1>
-                                <div class="form-floating mb-3" >
+                                <div class="form-floating mb-3">
                                     <input type="cpf" class="form-control" id="floatinInp" placeholder="Seu CPF">
                                     <label for="floatingInput">CPF</label>
                                 </div>
@@ -365,8 +403,9 @@
                                     <input type="Senha" class="form-control" id="floatinInp" placeholder="Sua senha">
                                     <label for="floatingInput">Senha</label>
                                     <div class="form-check text-start my-3">
-                                        <input type="checkbox" class="form-check-input" id="flexcheckDefault"/>
-                                        <label class="form-check-label" for="flexcheckDefault">Lembrar meu acesso</label>
+                                        <input type="checkbox" class="form-check-input" id="flexcheckDefault" />
+                                        <label class="form-check-label" for="flexcheckDefault">Lembrar meu
+                                            acesso</label>
                                     </div>
                                 </div>
                                 <button class="btn btn-danger w-100 py-2">Acessar</button>
@@ -376,19 +415,19 @@
                         </main>
 
                     </div>
-                 </div>
+                </div>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>joaolucasaraujo-545</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>John-silva91</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
@@ -402,7 +441,7 @@
                     <input class="btn btn-primary" type="submit" value="Submit">
                     <input class="btn btn-primary" type="reset" value="Reset">
                 </div>
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
@@ -439,7 +478,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>LuaMDS</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
@@ -484,7 +523,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>MarcelaodoNordeste</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
@@ -507,25 +546,25 @@
                 </div>
                 <p>Carrossel de reprodução automática sem controle.</p>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>migueldias1</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>pedrojadir</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>razer-bit</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
@@ -534,12 +573,13 @@
                     <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label">Nome Completo</label>
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Seu Nome">
-                      </div>
-                      <div class="mb-3">
+                    </div>
+                    <div class="mb-3">
                         <label for="formGroupExampleInput2" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="exemple@gmail.com">
-                      </div>
-                      <input class="btn btn-primary" type="submit" value="Enviar">
+                        <input type="email" class="form-control" id="formGroupExampleInput2"
+                            placeholder="exemple@gmail.com">
+                    </div>
+                    <input class="btn btn-primary" type="submit" value="Enviar">
                 </div>
                 <p>Formulario e um button</p>
             </div>
@@ -547,7 +587,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>Rogerio-Mourao-Melo</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
@@ -621,7 +661,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 my-2 d-flex flex-column align-items-center ">
                 <h2>Yan-Kevi</h2>
                 <!-- componente -->
-                <p>Desecrição do exemplo</p>
+                <p>Descrição do exemplo</p>
             </div>
 
         </div>
@@ -631,6 +671,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const getPreferredTheme = () => {
+                if (localStorage.getItem('theme') === 'auto') {
+                    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                }
+                return localStorage.getItem('theme') || 'auto';
+            };
+
+            const setTheme = (theme) => {
+                document.documentElement.setAttribute('data-bs-theme', theme);
+                document.querySelectorAll('[data-bs-theme-value]').forEach(button => {
+                    button.classList.toggle('active', button.getAttribute('data-bs-theme-value') === theme);
+                });
+            };
+
+            const theme = getPreferredTheme();
+            setTheme(theme);
+
+            document.querySelectorAll('[data-bs-theme-value]').forEach(button => {
+                button.addEventListener('click', function () {
+                    const themeValue = this.getAttribute('data-bs-theme-value');
+                    localStorage.setItem('theme', themeValue);
+                    const newTheme = getPreferredTheme();
+                    setTheme(newTheme);
+                });
+            });
+
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                if (localStorage.getItem('theme') === 'auto') {
+                    const newTheme = getPreferredTheme();
+                    setTheme(newTheme);
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
